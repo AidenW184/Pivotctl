@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Pivotctl runtime data
+backups/*
+profiles/*
+
+# Keep directory structure in Git
+!backups/.gitkeep
+!profiles/.gitkeep
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Test / coverage artefacts
+.coverage
+htmlcov/
+.pytest_cache/

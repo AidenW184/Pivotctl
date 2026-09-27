@@ -1,0 +1,37 @@
+{
+    "application": {
+        "name": "Pivotctl",
+        "version": "0.1",
+        "author": "AJ Whitfield",
+        "alias": "Pivotctl"
+    },
+    "paths": {
+        "hosts_file": "/etc/hosts",
+        "proxychains_file": "/etc/proxychains4.conf",
+        "profiles_directory": "profiles",
+        "backups_directory": "backups"
+    },
+    "hosts": {
+        "managed_block_start": "# >>> PIVOTCTL MANAGED >>>",
+        "managed_block_end": "# <<< PIVOTCTL MANAGED <<<",
+        "backup_before_write": true
+    },
+    "proxychains": {
+        "default_chain": "dynamic_chain",
+        "proxy_dns": true,
+        "default_proxy_type": "socks5",
+        "default_proxy_host": "127.0.0.1",
+        "default_proxy_port": 1080,
+        "backup_before_write": true
+    },
+    "interface": {
+        "show_banner": true,
+        "clear_screen": true,
+        "colour": true
+    },
+    "safety": {
+        "confirm_before_write": true,
+        "confirm_before_delete": true,
+        "create_backups": true
+    }
+}
