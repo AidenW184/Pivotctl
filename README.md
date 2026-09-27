@@ -207,7 +207,7 @@ These tools are not Python dependencies and are not installed through `requireme
 Clone the repository:
 
 ```bash
-git clone <REPOSITORY_URL>
+git clone git@github.com:AidenW184/Pivotctl.git
 cd Pivotctl
 ```
 
