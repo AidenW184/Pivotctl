@@ -13,7 +13,7 @@ RED="\033[1;31m"
 RESET="\033[0m"
 
 INSTALL_DIR="/opt/pivotctl"
-COMMAND="/usr/local/bin/pivotctl"
+COMMAND="/usr/bin/pivotctl"
 
 echo -e "${CYAN}Pivotctl v1.0 Uninstaller${RESET}"
 echo

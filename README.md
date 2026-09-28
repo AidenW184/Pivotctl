@@ -231,7 +231,7 @@ The installer will:
 - Offer to install missing dependencies on `apt`-based systems
 - Create original system configuration backups where appropriate
 - Install Pivotctl under `/opt/pivotctl`
-- Create the global `/usr/local/bin/pivotctl` command
+- Create the global `/usr/bin/pivotctl` command
 - Validate the installed Python source
 
 After installation, launch Pivotctl from anywhere with:
@@ -243,7 +243,7 @@ sudo pivotctl
 The global command resolves to:
 
 ```text
-/usr/local/bin/pivotctl
+/usr/bin/pivotctl
         ↓
 /opt/pivotctl/pivotctl.py
 ```
@@ -288,7 +288,7 @@ The uninstaller removes:
 
 ```text
 /opt/pivotctl
-/usr/local/bin/pivotctl
+/usr/bin/pivotctl
 ```
 
 Pivotctl's pre-installation system configuration backups are deliberately retained.
@@ -518,7 +518,7 @@ sudo ./install.sh
 Confirm the global command points to the installed copy:
 
 ```bash
-readlink -f /usr/local/bin/pivotctl
+readlink -f /usr/bin/pivotctl
 ```
 
 Expected:

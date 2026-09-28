@@ -16,7 +16,7 @@ RESET="\033[0m"
 
 SOURCE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 INSTALL_DIR="/opt/pivotctl"
-COMMAND="/usr/local/bin/pivotctl"
+COMMAND="/usr/bin/pivotctl"
 
 echo -e "${GREEN}"
 echo '██████╗ ██╗██╗   ██╗ ██████╗ ████████╗██╗'
